@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework-6</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<h1>My First JavaScript</h1>
+<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "pic_bulboff.gif"
+  } else {
+    pic = "pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="pic_bulboff.gif" width="150" height="230">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+
+<!-- <p id="demo"></p>
+<div class="big-div">
+  <div class="small-div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rem maiores nulla quia totam voluptatibus?</div>
+  <div class="small-div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rem maiores nulla quia totam voluptatibus?</div>  
+  <div class="small-div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rem maiores nulla quia totam voluptatibus?</div>
+  
+</div> -->
+
+
+
+
+
+  <!-- <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, cum porro reprehenderit aut quasi voluptas, dolorum nisi explicabo eos placeat dolorem sequi corrupti asperiores velit.</p>
+
+  <ul class="list-item">
+    <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+    <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+    <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+    <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+    <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+  </ul>
+
+  <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eligendi incidunt, neque hic accusamus fugiat necessitatibus error! Ratione, fugit facere.</blockquote>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste amet labore magnam illum voluptate temporibus aperiam voluptates necessitatibus eveniet architecto eaque fugiat animi in accusantium unde possimus, libero atque.</p> -->
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+.big-div{
+  width: 1000px;
+  height: 800px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background-color: brown;
+}
+
+.small-div{
+  width: 250px;
+  height: 250px;
+  padding:50px;
+  color:blue;
+  background-color: rgb(233, 180, 180);
+  opacity: 0.5;
+}
